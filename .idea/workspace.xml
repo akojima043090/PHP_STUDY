@@ -110,7 +110,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quickstart/resources/views/auth/login.blade.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -129,6 +133,9 @@
       <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/quickstart_php</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -266,6 +273,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1014" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -396,12 +404,12 @@
       <workItem from="1547734319302" duration="27100000" />
       <workItem from="1548678818740" duration="2135000" />
       <workItem from="1548914268154" duration="5811000" />
-      <workItem from="1548980638157" duration="37218000" />
+      <workItem from="1548980638157" duration="37569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72264000" />
+    <option name="totallyTimeSpent" value="72615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-157" width="1920" height="1057" extended-state="6" />
@@ -698,7 +706,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quickstart/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
