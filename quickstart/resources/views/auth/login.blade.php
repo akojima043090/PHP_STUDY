@@ -5,10 +5,15 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
+                {{--__ヘルパ関数--}}
                 <div class="card-header">{{ __('Login') }}</div>
+                {{--ヘルパ関数を使う意味？--}}
+                {{--<div class="card-header">Login</div>--}}
 
                 <div class="card-body">
+
                     <form method="POST" action="{{ route('login') }}">
+                        {{--クロス・サイト・リクエスト・フォージェリ(CSRF)対策--}}
                         @csrf
 
                         <div class="form-group row">
