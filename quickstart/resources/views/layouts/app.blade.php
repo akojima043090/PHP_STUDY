@@ -21,6 +21,9 @@
                     <a class="navbar-brand" href="{{ url('/createUser') }}">
                         新規登録
                     </a>
+                    <a class="navbar-brand" href="{{ url('/logout') }}">
+                        ログアウト
+                    </a>
                 </div>
             </div>
         </nav>

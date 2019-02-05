@@ -12,7 +12,8 @@
 
                 <div class="card-body">
 
-                    <form method="POST" action="{{ route('login') }}">
+                    {{--<form method="POST" action="{{ route('login') }}">--}}
+                    <form method="POST" action="{{ url('logincheck') }}">
                         {{--クロス・サイト・リクエスト・フォージェリ(CSRF)対策--}}
                         @csrf
 

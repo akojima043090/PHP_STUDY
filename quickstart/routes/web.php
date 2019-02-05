@@ -25,6 +25,10 @@ Route::get('/',function(){
 Route::get('/createUser',function(){
     return view('/auth/register');
 });
+//ログインチェック
+Route::post('/logincheck','Auth\LoginController@authenticate');
+//ログアウト
+Route::get('/logout','Auth\LoginController@logout');
 
 //タスクの一覧
 Route::get('/tasks', 'TaskController@index');
@@ -39,7 +43,5 @@ Route::delete('/task/{task}', 'TaskController@destroy');
 Route::get('/calendar', function(){
     return view('calendar');
 });
-
-Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
