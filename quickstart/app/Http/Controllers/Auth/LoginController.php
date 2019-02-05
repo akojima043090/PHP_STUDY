@@ -42,10 +42,19 @@ class LoginController extends Controller
     }
 
     /**
-     * ログイン
+     * ログイン認証
      */
     public function authenticate(Request $request){
-        $credentials = $request->only('email', 'password');
+        $authKey = $request->input('login');
+        $password = $request->input('password');
+
+        //ユーザID or メールアドレスを判別
+        if (filter_var($authKey, \FILTER_VALIDATE_EMAIL)){
+            $credentials = ['email' => $authKey, 'password' => $password];
+        } else {
+            $credentials = ['name' => $authKey, 'password' => $password];
+        }
+//        $credentials = $request->only('email', 'password');
 
 
         if (Auth::attempt($credentials)) {
