@@ -21,6 +21,9 @@
                     <a class="navbar-brand" href="{{ url('/createUser') }}">
                         新規登録
                     </a>
+                    <a class="navbar-brand" href="{{ url('/calendar') }}">
+                        カレンダー
+                    </a>
                     <a class="navbar-brand" href="{{ url('/logout') }}">
                         ログアウト
                     </a>
@@ -30,6 +33,7 @@
 
         @yield('content')
         <!-- JavaScripts -->
+        @yield('hooter')
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </body>
     </html>
