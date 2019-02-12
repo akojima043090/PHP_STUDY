@@ -84,21 +84,21 @@
                         $days[$k]['day'] = '';
                         $k++;
                     }
-            }
+                }
 
-            //日付格納
-            $days[$j]['day'] = $i;
-            $j++;
+                //日付格納
+                $days[$j]['day'] = $i;
+                $j++;
 
-            //月末日の場合 $lastDayはStringの為 「==」で比較
-            if ($i == $lastDay){
-            //月末日から残りを空白で埋める為ループ
-            for ($l = 1; $l <= 6 - $week; $l++){
-            //空白で埋める
-            $days[$j]['day'] = '';
-            $j++;
-            }
-            }
+                //月末日の場合 $lastDayはStringの為 「==」で比較
+                if ($i == $lastDay){
+                    //月末日から残りを空白で埋める為ループ
+                    for ($l = 1; $l <= 6 - $week; $l++){
+                        //空白で埋める
+                        $days[$j]['day'] = '';
+                        $j++;
+                    }
+                }
             }
         ?>
         <div class="normal-group clearfix">
