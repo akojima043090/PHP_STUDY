@@ -38,4 +38,22 @@
         }
         echo $voice . PHP_EOL;
 
+        // Sample
+//         $hoge = $i % 3;
+//         $piyo = $i % 5;
+//         $fuga = $i % 7;
+        
+//         if($hoge === 0 && $piyo === 0 && $fuga === 0){
+//             echo 'Hoge';
+//         }elseif($hoge === 0 && $piyo === 0){
+//             echo 'Hoge';
+//         }elseif($hoge === 0){
+//             echo 'Hoge';
+//         }elseif($piyo === 0){
+//             echo 'Hoge';
+//         }elseif($fuga === 0){
+//             echo 'Hoge';
+//         }
+        
+        
     }
