@@ -26,10 +26,19 @@
         for($j = 1; $j <= 9; $j++){
             $calc = 0;
             $calc = $i * $j;
-            $calc = $calc . ' ';
+            $calc = $calc . ' ';　//int型の変数にstring型の値を入れる動きになっているのが気になります
             if ($j === 9){
                 $calc = $calc . PHP_EOL;
             }
             echo $calc;
+        }
+    }
+
+    for($i = 1; $i <= 9; $i++){
+        for($j = 1; $j <= 9; $j++){
+            echo sprintf(' %02d', $i * $j);
+            if ($j === 9){
+                echo PHP_EOL;
+            }
         }
     }
