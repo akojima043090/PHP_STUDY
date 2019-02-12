@@ -33,3 +33,8 @@ $calc = $stdin % 12;
 
 $eto = array_search($calc, $etos);
 echo $eto . PHP_EOL;
+
+// Ver.yamaguchi
+$etoes = ['申','酉','戌','亥','子','丑','寅','卯','辰','巳','午','未'];
+$stdin = trim(fgets(STDIN));
+echo $etoes[$stdin % 12];
